@@ -7,7 +7,7 @@ Basic Cipher created for Cryptography and System Security Course
 2. Then Ceasar Cipher is used 
 + Therefore, my plainText RUSHABH changes to UXVKDEK (Adding +3 to each Alphabet)
 3. I've considered the alphabets to follow a circular order, that is, A,B,C,....,Z,A,B,...Z,A,.. 
-+ Now, the alphabet's numerical value is doubled by adding it with itself. Therefore, A becomes A+A, that is, 1+1 which becomes B (2)
++ Now, the alphabet's numerical value is doubled by adding it to itself. Therefore, A becomes A+A, that is, 1+1 which becomes B (2)
 + If the value exceeds by 26 then it is subtracted by 26, as it follows a circular order.
 + Therefore, UXVKDEK changes to OUQVHJV, which is the encryptedText
 
