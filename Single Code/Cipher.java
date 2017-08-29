@@ -2,13 +2,11 @@ import java.util.Scanner;
 public class Cipher {
   public static void main(String args[])
   {
-    //int i;
     Scanner sc = new Scanner(System.in);
     System.out.println("Enter the plain text");
     String plainText = sc.next();
     String encryptText = encrypt(plainText);
-    decrypt(encryptText);
-    
+    decrypt(encryptText);  
   }
 
   public static String encrypt(String plainText)

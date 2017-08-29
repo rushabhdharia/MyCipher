@@ -1,4 +1,3 @@
-// Created Server and Client
 import java.util.Scanner;
 import java.io.*;
 import java.net.*;
@@ -6,7 +5,6 @@ import java.net.*;
 public class CipherClient {
   public static void main(String args[])
   {
-    //int i;
     Scanner sc = new Scanner(System.in);
     System.out.println("Enter the plain text");
     String plainText = sc.next();
@@ -22,8 +20,6 @@ public class CipherClient {
     } catch(Exception e){
       System.out.println(e);
     }
-    //decrypt(encryptText);
-    
   }
 
   public static String encrypt(String plainText)
