@@ -22,13 +22,21 @@ public class Cipher {
     String encrypt = String.valueOf(text);
     System.out.println("Encrypted text = "+encrypt);
     
+    System.out.print("Decrypted text = ");
     for(i=0;i<n;i++)
     {
-      int test = (int)text[i].charValue();
-      System.out.println(test+" "+text[i]);
+      //char ij = 'I';
+      int test=Character.getNumericValue(text[i])-9;
       
+      if(test%2!=0)
+      {
+        test += 27;
+         
+      }
+      test = test/2 + 64; 
+      System.out.print((char)test);
     } 
-    String decrypt = String.valueOf(text);
-    System.out.println("Decrypted text = "+decrypt);
+    //String decrypt = String.valueOf(text);
+    //System.out.println("Decrypted text = "+decrypt);
   }
 }
