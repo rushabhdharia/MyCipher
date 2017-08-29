@@ -1,0 +1,4 @@
+Enter the plain text
+RUSHABH
+Encrypted text = OUQVHJV
+Decrypted text = RUSHABH
